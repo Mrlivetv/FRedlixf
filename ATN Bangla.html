@@ -30,7 +30,7 @@
     if (Hls.isSupported()) {
         var video = document.getElementById('video');
         var hls = new Hls();
-        hls.loadSource('https://livess.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8');
+        hls.loadSource('https://raw.githubusercontent.com/Mrlivetv/FRedlixf/refs/heads/main/chunklist.m3u8');
         hls.attachMedia(video);
         hls.on(Hls.Events.MANIFEST_PARSED, function() {
             video.play();
